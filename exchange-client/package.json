@@ -1,0 +1,41 @@
+{
+  "name": "exchange-client",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "./start.sh"
+  },
+  "license": "BSD-MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "debug": "^2.6.8",
+    "elementsd-rpc": "git://github.com/shesek/bitcoind-rpc.git#elementsd",
+    "express": "^4.15.3",
+    "iferr": "^0.1.5",
+    "morgan": "^1.8.2",
+    "pug": "^2.0.0-rc.2",
+    "socket.io": "^2.0.3",
+    "superagent": "^3.5.2",
+    "superagent-baseuri": "^0.1.1",
+    "superagent-prefix": "0.0.2",
+    "superagent-use": "git://github.com/shesek/superagent-use.git#patch-1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-syntax-object-rest-spread": "^6.13.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "babelify": "^7.3.0",
+    "bootstrap": "^3.3.7",
+    "browserify": "^14.4.0",
+    "browserify-middleware": "^7.1.0",
+    "pugify": "^2.0.1",
+    "stylus": "^0.54.5",
+    "uglifyjs": "^2.4.11"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  }
+}

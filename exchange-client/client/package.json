@@ -1,0 +1,30 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cycle/dom": "^17.6.0",
+    "@cycle/http": "^13.3.0",
+    "@cycle/rxjs-run": "^7.0.0",
+    "cycle-vex-driver": "git://github.com/shesek/cycle-vex-driver.git",
+    "form-serialize": "^0.7.2",
+    "format-number": "^3.0.0",
+    "qruri": "0.0.3",
+    "rxjs": "^5.4.2",
+    "socket.io-client": "^2.0.3",
+    "vex-dialog": "^1.0.7",
+    "vex-js": "^4.0.0",
+    "xstream": "^10.9.0"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  }
+}

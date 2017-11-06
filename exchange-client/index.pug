@@ -1,0 +1,22 @@
+mixin css(path)
+  link(rel='stylesheet', href=settings.static_url+path)
+
+doctype html5
+
+title Elements Exchange
+meta(charset='utf-8')
+base(href=settings.url)
+meta(name='viewport', content='width=device-width, initial-scale=1')
+
++css('bootstrap/css/bootstrap.min.css')
++css('vex-css/vex.css')
++css('vex-css/vex-theme-default.css')
+
++css('styl/style.css')
+
+nav.navbar.navbar-default: .container
+  .navbar-header: a.navbar-brand(href=settings.url) Elements Exchange
+
+#app.container
+
+script(src=settings.static_url+'app.js')
